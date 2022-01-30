@@ -1,6 +1,43 @@
 # CreativeHeads
 
-A decorative heads plugin for Minecraft servers.
+A lightweight, modern, free and open-source Minecraft custom heads plugin.
+
+## Features
+
+- A database featuring 40,000+ custom heads to decorate your builds with.
+  - And growing every week, thanks
+    to [automatic updates](https://github.com/TheLuca98/MinecraftHeads).
+- Easily find what you need with the search engine. Or browse by category for
+  inspiration.
+- Zero configuration: just add CreativeHeads to your plugin folder and you're
+  ready to go.
+- Fast and lightweight. Async-first design. Minimal network calls.
+- Completely free and open-source.
+
+## Download
+
+Minimum requirements:
+
+- Java 11+
+- Spigot/Paper 1.16.5+
+
+The plugin will probably work on most Spigot forks, but only Spigot and Paper
+servers are officially supported.
+
+**[Download CreativeHeads (via GitHub Releases)](https://github.com/TheLuca98/CreativeHeads/releases)**
+
+## Commands
+
+- `/creativeheads`
+  - **Aliases**
+    - `/heads`
+    - `/ch`
+  - **Subcommands**
+    - `/creativeheads browse` Browse the head database by category.
+    - `/creativeheads search <query>` Search for heads in the database.
+    - `/creativeheads player <username>` Obtain the given player's head.
+  - **Permissions**
+    - `creativeheads.use` Grants access to all features.
 
 ## License
 

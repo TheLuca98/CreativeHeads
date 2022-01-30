@@ -14,5 +14,5 @@ commands:
 
 permissions:
   creativeheads.use:
-    description: "Allows use of CreativeHeads features."
+    description: "Grants access to all CreativeHeads features."
     default: "op"
