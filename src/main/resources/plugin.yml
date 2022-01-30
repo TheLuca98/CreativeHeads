@@ -1,0 +1,18 @@
+name: "CreativeHeads"
+version: "${project.version}"
+main: "io.github.theluca98.creativeheads.CreativeHeads"
+api-version: "1.16"
+author: "Luca"
+website: "https://github.com/TheLuca98/CreativeHeads"
+
+commands:
+  creativeheads:
+    description: "The CreativeHeads main command."
+    permission: "creativeheads.use"
+    aliases: [ "ch", "heads" ]
+    usage: "/<command> <...>"
+
+permissions:
+  creativeheads.use:
+    description: "Allows use of CreativeHeads features."
+    default: "op"
