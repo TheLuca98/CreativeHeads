@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Git checkout
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
 
       - name: Set up JDK
         uses: actions/setup-java@v2
@@ -24,7 +24,7 @@ jobs:
         run: mvn -B package --file pom.xml
 
       - name: Copy artifacts
-        run: 'cp target/CreativeHeads.jar .'
+        run: cp target/CreativeHeads.jar .
 
       - name: Upload bundle
         uses: actions/upload-artifact@v2
